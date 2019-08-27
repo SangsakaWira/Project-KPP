@@ -11,10 +11,15 @@ import { Link } from 'react-router-dom';
 
 class Dashboard extends Component{
  
+    constructor(props){
+        super(props)
+        this.state ={
+            alat:[]
+        }
+        
+    }
+
 render(){
-    var myChat = {
-        width: '110%'
-     };
       
     return(
             <AUX>
@@ -42,7 +47,7 @@ render(){
                                     <table className="table table-hover">
                                         <thead>
                                             <tr>
-                                            <th scope="col">(#) Id</th>
+                                            <th scope="col">ID</th>
                                             <th scope="col">Gambar Alat</th>
                                             <th scope="col">Nama Alat</th>
                                             <th scope="col">Jumlah Alat</th>

@@ -73,13 +73,13 @@ class sidebar extends Component {
                                 <Link to="/"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="ion ion-ios-search"></i><span> Semua Alat </span></Link>
                             </li>
                             <li>
-                                <Link to="/"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="ion ion-ios-journal"></i><span> Alat Terpinjam </span></Link>
+                                <Link to="/alat-terpinjam"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="ion ion-ios-journal"></i><span> Alat Terpinjam </span></Link>
                             </li>
                             <li>
-                                <Link to="/"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="mdi mdi-account-multiple"></i><span> Peminjam </span></Link>
+                                <Link to="/peminjam"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="mdi mdi-account-multiple"></i><span> Peminjam </span></Link>
                             </li>
                             <li>
-                                <Link to="/"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="ion ion-md-help-circle-outline"></i><span> Help </span></Link>
+                                <Link to="/help"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="ion ion-md-help-circle-outline"></i><span> Help </span></Link>
                             </li>
                             <li>
                                 <Link to="/"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="ti-calendar"></i><span> Logout </span></Link>

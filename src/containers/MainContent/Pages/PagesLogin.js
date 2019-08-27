@@ -21,14 +21,16 @@ render(){
             <AUX>
                 <div className="home-btn d-none d-sm-block">
                     <Link to="/" className="text-dark"><i className="fas fa-home h2"></i></Link>
-                </div>
+                </div>          
                 
                 <div className="wrapper-page">
                     <div className="card overflow-hidden account-card mx-3">
                         <div className="bg-primary p-4 text-white text-center position-relative">
-                            <h4 className="font-20 m-b-5">Welcome Back !</h4>
-                            <p className="text-white-50 mb-4">Sign in to continue to Veltrix.</p>
-                            <Link to="/" className="logo logo-admin"><img src="assets/images/logo-sm.png" height="24" alt="logo" /></Link>
+                      
+                            <h4 className="font-20 m-b-5">Selamat Datang</h4>
+                            <p className="text-white-50 mb-4">Login untuk menimjam alat.</p>
+                            <Link to="/" className="logo logo-admin">
+                            <img src="assets/images/logo-sm.png" height="24" alt="logo" /></Link>
                         </div>
                         <div className="account-card-content"> 
 
@@ -37,11 +39,6 @@ render(){
                                 <div className="form-group">
                                     <label htmlFor="username">Username</label>
                                     <input type="text" className="form-control" id="username" placeholder="Enter username" />
-                                </div>
-
-                                <div className="form-group">
-                                    <label htmlFor="userpassword">Password</label>
-                                    <input type="password" className="form-control" id="userpassword" placeholder="Enter password" />
                                 </div>
 
                                 <div className="form-group row m-t-20">
@@ -67,8 +64,7 @@ render(){
 
                     <div className="m-t-40 text-center">
                         <p>Don't have an account ? <Link to="pages-register" className="font-500 text-primary"> Signup now </Link> </p>
-                        <p>© {new Date().getFullYear()} Veltrix. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesbrand</p>
-                    </div>
+                        </div>
                 </div>
             </AUX>
         );
