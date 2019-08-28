@@ -89,7 +89,7 @@ class topbar extends Component {
                     </li>
 
                     <li className="dropdown notification-list d-none d-md-block">
-                        <Link  onClick={() => this.togglescreen()} className="nav-link waves-effect" to="#" id="btn-fullscreen">
+                        <Link className="nav-link waves-effect" to="/checkout" id="btn-fullscreen">
                         <i class="dripicons-cart"></i>
                         </Link>
                     </li>

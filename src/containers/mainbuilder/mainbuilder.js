@@ -3,6 +3,7 @@ import Dashboard from '../MainContent/Dashboard/Dashboard';
 import Help from '../MainContent/Dashboard/Help';
 import AlatTerpinjam from '../MainContent/Dashboard/AlatTerpinjam';
 import Peminjam from '../MainContent/Dashboard/Peminjam'
+import Checkout from '../MainContent/Dashboard/Checkout'
 
 import { Route,Switch } from 'react-router-dom';
 class mainbuilder extends Component{
@@ -13,6 +14,7 @@ class mainbuilder extends Component{
                     <Route path="/help" component={Help}/>
                     <Route path="/alat-terpinjam" component={AlatTerpinjam}/>
                     <Route path="/peminjam" component={Peminjam}/>
+                    <Route path="/checkout" component={Checkout}/>
                 </Switch>
         );
     }
