@@ -67,7 +67,7 @@ class sidebar extends Component {
             <Scrollbars style={{ height: 980 ,background:"#2D5713"}} >
                 <div>
                     <div id="sidebar-menu">
-                        <ul className="metismenu" id="side-menu" style={{marginTop:"-30px"}}>
+                        <ul className="metismenu" id="side-menu" style={{marginTop:"-10px"}}>
                             {/* <li className="menu-title">Main</li> */}
                             <li>
                                 <Link to="/"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="ion ion-ios-search"></i><span> Semua Alat </span></Link>

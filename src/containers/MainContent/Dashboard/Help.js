@@ -26,9 +26,7 @@ render(){
                                 <li className="breadcrumb-item active">Pada halaman ini ditunjukkan semua status alat yang ada di gudang KPP, Jumlah alat, jenis alat dan ID alat ditampilkan pada lists berikut ini.</li>
                             </ol>
                         </div>
-                        <div className="col-sm-6">
-                        <Settings />
-                        </div>
+                        
                     </div>
                 </div>
                 </div>

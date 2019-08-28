@@ -43,11 +43,10 @@ render(){
                                     <table className="table table-hover">
                                         <thead>
                                             <tr>
-                                            <th scope="col">ID</th>
-                                            <th scope="col">Gambar Alat</th>
-                                            <th scope="col">Nama Alat</th>
-                                            <th scope="col">Jumlah Alat</th>
-                                            <th scope="col" colSpan="2">Jumlah</th>
+                                            <th scope="col">Nomor Pegawai</th>
+                                            <th scope="col">Foto Pegawai</th>
+                                            <th scope="col">Nama Pegawai</th>
+                                            <th scope="col">Nomor Telpon Pegawai</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -58,14 +57,9 @@ render(){
                                                     <img src="assets/images/users/user-2.jpg" alt="" className="thumb-md rounded-circle mr-2" /> 
                                                 </div>
                                             </td>
-                                            <td>Masker</td>
-                                            <td>20</td>
-                                            <td><span className="badge badge-success">Tersedia</span></td>
-                                            <td>
-                                                <div>
-                                                    <Link to="#" className="btn btn-primary btn-sm">Pinjam</Link>
-                                                </div>
-                                            </td>
+                                            <td>Abhi</td>
+                                            <td>087899711232</td>
+                                            
                                             </tr>
                                             <tr>
                                             <th scope="row">#14257</th>
@@ -74,14 +68,9 @@ render(){
                                                     <img src="assets/images/users/user-3.jpg" alt="" className="thumb-md rounded-circle mr-2" /> 
                                                 </div>
                                             </td>
-                                            <td>Gerinda</td>
-                                            <td>3</td>
-                                            <td><span className="badge badge-warning">Sisa Sedikit</span></td>
-                                            <td>
-                                                <div>
-                                                    <Link to="#" className="btn btn-primary btn-sm">Pinjam</Link>
-                                                </div>
-                                            </td>
+                                            <td>Achmadi</td>
+                                            <td>082189039892</td>
+                                            
                                             </tr>
                                             <tr>
                                             <th scope="row">#14258</th>
@@ -90,14 +79,9 @@ render(){
                                                     <img src="assets/images/users/user-4.jpg" alt="" className="thumb-md rounded-circle mr-2" /> 
                                                 </div>
                                             </td>
-                                            <td>Kacamata</td>
-                                            <td>16</td>
-                                            <td><span className="badge badge-success">Tersedia</span></td>
-                                            <td>
-                                                <div>
-                                                    <Link to="#" className="btn btn-primary btn-sm">Pinjam</Link>
-                                                </div>
-                                            </td>
+                                            <td>Boris</td>
+                                            <td>085734571829</td>
+                                            
                                             </tr>
                                             <tr>
                                             <th scope="row">#14259</th>
@@ -106,14 +90,9 @@ render(){
                                                     <img src="assets/images/users/user-5.jpg" alt="" className="thumb-md rounded-circle mr-2" /> 
                                                 </div>
                                             </td>
-                                            <td>Kompressor</td>
-                                            <td>0</td>
-                                            <td><span className="badge badge-danger">Kosong</span></td>
-                                            <td>
-                                                <div>
-                                                    <Link to="#" className="btn btn-primary btn-sm">Pinjam</Link>
-                                                </div>
-                                            </td>
+                                            <td>Cahyono</td>
+                                            <td>087829382132</td>
+                                            
                                             </tr>
                                             <tr>
                                             <th scope="row">#14260</th>
@@ -122,14 +101,9 @@ render(){
                                                     <img src="assets/images/users/user-6.jpg" alt="" className="thumb-md rounded-circle mr-2" /> 
                                                 </div>
                                             </td>
-                                            <td>Gergaji</td>
-                                            <td>54</td>
-                                            <td><span className="badge badge-success">Tersedia</span></td>
-                                            <td>
-                                                <div>
-                                                    <Link to="#" className="btn btn-primary btn-sm">Pinjam</Link>
-                                                </div>
-                                            </td>
+                                            <td>Donna</td>
+                                            <td>085899736748</td>
+                                            
                                             </tr>
                                         </tbody>
                                     </table>
