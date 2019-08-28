@@ -73,13 +73,7 @@ class topbar extends Component {
 
             <div className="topbar-left" style={{background:"#2D5713"}}>
                 <Link to="/" className="logo">
-                        {/* <span>
-                            <img src="assets/images/logo-light.png" alt="" height="18" />
-                        </span>
-                    <i>
-                            <img src="assets/images/logo-sm.png" alt="" height="22" />
-                        </i> */}
-                    
+                       
                 </Link>
             </div>
 
@@ -92,6 +86,12 @@ class topbar extends Component {
                                 <button type="submit"><i className="fa fa-search"></i></button>
                             </div>
                         </form>
+                    </li>
+
+                    <li className="dropdown notification-list d-none d-md-block">
+                        <Link  onClick={() => this.togglescreen()} className="nav-link waves-effect" to="#" id="btn-fullscreen">
+                        <i class="dripicons-cart"></i>
+                        </Link>
                     </li>
 
                     <li className="dropdown notification-list d-none d-md-block">
