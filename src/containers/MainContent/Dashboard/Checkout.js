@@ -9,7 +9,7 @@ import { Scrollbars } from 'react-custom-scrollbars';
 
 import { Link } from 'react-router-dom';
 
-class Dashboard extends Component{
+class Checkout extends Component{
  
     constructor(props){
         super(props)
@@ -131,4 +131,4 @@ render(){
     }
 }
 
-export default Dashboard;   
+export default Checkout;   

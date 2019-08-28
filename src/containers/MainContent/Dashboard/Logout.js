@@ -3,7 +3,7 @@ import React , {Component } from 'react';
 import AUX from '../../../hoc/Aux_';
 import Settings from '../Subpages/Settings';
 
-class Help extends Component{
+class Logout extends Component{
  
     constructor(props){
         super(props)
@@ -35,4 +35,4 @@ render(){
     }
 }
 
-export default Help;   
+export default Logout;   
