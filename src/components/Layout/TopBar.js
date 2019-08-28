@@ -110,7 +110,7 @@ class topbar extends Component {
                                     <DropdownMenu>
                                     <DropdownItem><i className="mdi mdi-account-circle m-r-5"></i> Administration</DropdownItem>
                                     <DropdownItem><i className="mdi mdi-wallet m-r-5"></i> Edit</DropdownItem>
-                                    <DropdownItem><span className="badge badge-success float-right">11</span><i className="mdi mdi-settings m-r-5"></i> Settings</DropdownItem>
+                                    {/* <DropdownItem><span className="badge badge-success float-right">11</span><i className="mdi mdi-settings m-r-5"></i> Settings</DropdownItem> */}
                                     <DropdownItem><i className="mdi mdi-lock-open-outline m-r-5"></i> Lock screen</DropdownItem>
                                     <DropdownItem><i className="mdi mdi-power text-danger"></i> Logout</DropdownItem>
                                     </DropdownMenu>

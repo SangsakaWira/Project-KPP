@@ -23,7 +23,7 @@ render(){
                         <div className="col-sm-6">
                             <h4 className="page-title">Help</h4>
                             <ol className="breadcrumb">
-                                <li className="breadcrumb-item active">Pada halaman ini ditunjukkan semua status alat yang ada di gudang KPP, Jumlah alat, jenis alat dan ID alat ditampilkan pada lists berikut ini.</li>
+                                <li className="breadcrumb-item active">Pada halaman ini ditunjukkan informasi mengenai penggunaan aplikasi Manajemen Peminjaman Alat Terintegrasi PT. Kalimantan Prima Persada.</li>
                             </ol>
                         </div>
                         

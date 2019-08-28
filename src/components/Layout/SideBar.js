@@ -82,7 +82,7 @@ class sidebar extends Component {
                                 <Link to="/help"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="ion ion-md-help-circle-outline"></i><span> Help </span></Link>
                             </li>
                             <li>
-                                <Link to="/"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="ti-calendar"></i><span> Logout </span></Link>
+                                <Link to="/logout"  className={this.state.Tab === 'calendar' ? 'waves-effect active':'waves-effect'}><i className="mdi mdi-door-open"></i><span> Logout </span></Link>
                             </li>
                         </ul>
                     </div>

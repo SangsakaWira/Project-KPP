@@ -24,7 +24,7 @@ render(){
                         <div className="col-sm-6">
                             <h4 className="page-title">Alat Terpinjam</h4>
                             <ol className="breadcrumb">
-                                <li className="breadcrumb-item active">Pada halaman ini ditunjukkan semua status alat yang ada di gudang KPP, Jumlah alat, jenis alat dan ID alat ditampilkan pada lists berikut ini.</li>
+                                <li className="breadcrumb-item active">Pada halaman ini ditunjukkan semua alat yang sedang dipinjam oleh peminjam.</li>
                             </ol>
                         </div>
                         <div className="col-sm-6">

@@ -21,9 +21,9 @@ render(){
                 <div className="page-title-box">
                     <div className="row align-items-center">
                         <div className="col-sm-6">
-                            <h4 className="page-title">Help</h4>
+                            <h4 className="page-title">Logout</h4>
                             <ol className="breadcrumb">
-                                <li className="breadcrumb-item active">Pada halaman ini ditunjukkan semua status alat yang ada di gudang KPP, Jumlah alat, jenis alat dan ID alat ditampilkan pada lists berikut ini.</li>
+                                <li className="breadcrumb-item active">Anda yakin ingin Logout sebelum meminjam alat? Silahkan tekan tombol <a>Link Ini</a></li>
                             </ol>
                         </div>
                         
